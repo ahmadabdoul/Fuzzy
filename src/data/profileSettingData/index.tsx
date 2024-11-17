@@ -1,0 +1,77 @@
+import colors from '../../theme/colors';
+import {
+  Location,
+  Call,
+  Box,
+  EmptyWallet,
+  Heart,
+  InfoCircle,
+  Setting,
+  Traslate,
+  Currency,
+} from '../../utils/icon';
+export const profileSettingData = [
+  {
+    id: 0,
+    icon: <Box />,
+    title: 'transData.orders',
+    subTitle: 'transData.ongoing',
+    screename: 'OrderHistory',
+  },
+  {
+    id: 1,
+    icon: <Heart />,
+    title: 'transData.wishlist',
+    subTitle: 'transData.yourSaveProduct',
+    screename: 'WhishListProfile',
+  },
+  {
+    id: 2,
+    icon: <EmptyWallet />,
+    title: 'transData.payment',
+    subTitle: 'transData.savedWallets',
+    screename: 'PaymentScreen',
+  },
+  {
+    id: 3,
+    icon: <Location />,
+    title: 'transData.savedAddress',
+    subTitle: 'transData.homeOffice',
+    screename: 'SavedAddressScreen',
+  },
+  {
+    id: 4,
+    icon: <Traslate />,
+    title: 'transData.language',
+    subTitle: 'transData.selectyourLanguagehere',
+    screename: 'LanguageScreen',
+  },
+  {
+    id: 5,
+    icon: <Currency />,
+    title: 'transData.currency',
+    subTitle: 'transData.changeCurrency',
+    screename: 'CurrencyScreen',
+  },
+  {
+    id: 6,
+    icon: <Setting />,
+    title: 'transData.settings',
+    subTitle: 'transData.appSettingsDark',
+    screename: 'Settings',
+  },
+  {
+    id: 7,
+    icon: <InfoCircle />,
+    title: 'transData.termsConditions',
+    subTitle: 'transData.useOfPlatform',
+    screename: 'TearmsScreen',
+  },
+  {
+    id: 8,
+    icon: <Call color={colors.screenBg} />,
+    title: 'transData.help',
+    subTitle: 'transData.customeFAQs',
+    screename: 'HelpScreen',
+  },
+];

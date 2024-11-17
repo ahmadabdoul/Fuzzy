@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Fuzzy",
+    "slug": "Fuzzy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rnexpo230.Fuzzy"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff",
+        "versionCode": 2
+      },
+      "package": "com.rnexpo230.Fuzzy"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9c87174f-9add-494c-a551-a8605b8b4431"
+      }
+    }
+  }
+}
